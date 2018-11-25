@@ -125,7 +125,7 @@ class IterableQueue():
 ###########################################################################
 
 class CrawlerUtil:
-    PROCESSED_SET_FILE_NAME = 'PROCESSED_URL_MEMORY.pickel'
+    PROCESSED_SET_FILE_NAME = 'processedUrl.pickel'
 
     def __init__(self):
         pass

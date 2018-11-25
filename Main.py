@@ -2,7 +2,7 @@ from MyCrawler import BanglaCrawler, IterableQueue, CrawlerUtil
 import queue
 from concurrent.futures import ThreadPoolExecutor as Executor
 
-ROOT_URL = 'https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%A1%E0%A6%BC%E0%A6%BE'
+ROOT_URL = 'https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%A6%E0%A7%80'
 
 QUEUE = queue.Queue()
 QUEUE.put(ROOT_URL)
