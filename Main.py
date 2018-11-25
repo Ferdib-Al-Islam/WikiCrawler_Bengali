@@ -13,7 +13,7 @@ PROCESSED_URL_SET = utill.get_previous_processed_url()
 
 
 def fetch(url):
-    print('Fetching ' + url)
+    print('Fetching ' + url) 
     bc = BanglaCrawler()
     return bc.crawle(url)
 
